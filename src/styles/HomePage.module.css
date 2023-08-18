@@ -1,0 +1,22 @@
+/* Landing Page CSS Styling */
+.blue_home_ball {
+  filter: blur(70px);
+  transition: all 1s ease;
+}
+.green_home_ball {
+  filter: blur(70px);
+  transition: all 1s ease;
+}
+.heading_text_home_page {
+  font-family: "Major Mono Display";
+}
+.scrollBar_none::-webkit-scrollbar {
+  display: none;
+}
+
+/* UnderStandDiscuss Page CSS Styling  */
+
+.costum_CSS_we_heading {
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+}

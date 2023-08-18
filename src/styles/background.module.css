@@ -1,0 +1,39 @@
+.isKO_Marcellus_SC_1 {
+  font-family: "Marcellus SC";
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.104);
+  text-stroke: 1px rgba(255, 255, 255, 0.104);
+  animation: scroll-headlines 50s linear infinite;
+  white-space: nowrap;
+  animation-timing-function: ease-out;
+}
+.isKO_Marcellus_SC_2 {
+  font-family: "Marcellus SC";
+  color: transparent;
+  animation: scroll-headlines 45s linear infinite;
+  white-space: nowrap;
+  animation-timing-function: ease-in-out;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.104);
+  text-stroke: 1px rgba(255, 255, 255, 0.104);
+}
+.isKO_Marcellus_SC_3 {
+  font-family: "Marcellus SC";
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.104);
+  text-stroke: 1px rgba(255, 255, 255, 0.104);
+  color: transparent;
+  animation: scroll-headlines 40s infinite;
+  animation-timing-function: ease-in-out;
+  white-space: nowrap;
+}
+
+/* Animations */
+
+@keyframes scroll-headlines {
+  0%,
+  100% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+}
